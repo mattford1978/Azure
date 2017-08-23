@@ -1,0 +1,1 @@
+Add-AzureVhd –LocalFilePath “X:\location\NAME.vhd” –Destination “https://<STORAGE>.blob.core.windows.net/vhd/NAME.vhd>” –NumberOfUploaderThreads 5
