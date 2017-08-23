@@ -1,0 +1,1 @@
+Add-AzureDisk –DiskName “NAMEVMware” –MediaLocation “https://<STORAGENAME>.blob.core.windows.net/vhds/Name.vhd>” –OS WindowsType
