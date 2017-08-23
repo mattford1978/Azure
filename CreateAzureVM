@@ -1,0 +1,1 @@
+New-AzureVMConfig –DiskName “NAMEvm” –Name “NAME” –InstanceSize Small | Add-AzureEndpoint –Name “RDPAccess” –LocalPort 3389 -PublicPort 3389 –Protocol tcp | New-AzureVM –ServiceName “<NAMEdnsNAME>” –Location “Location Europe”
