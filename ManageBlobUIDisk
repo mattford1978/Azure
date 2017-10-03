@@ -1,0 +1,1 @@
+az disk create -g RESGROUPNAME -n DISKNAME --source https://URL/vhds/TestDisk.vhd
