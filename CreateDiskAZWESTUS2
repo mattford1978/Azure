@@ -1,0 +1,1 @@
+az disk create -n DISKNAME -g RESGROUPNAME --size-gb 100 --location westus2 --zone 1
